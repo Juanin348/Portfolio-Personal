@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Juan Morales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header" class="header">
+        <div class="header-content">
+            <div class="logo" aria-label="Logo Juan Morales">JM</div>
+            <h1>Juan Morales</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#skills">Conocimientos</a></li>
+                    <li><a href="codigos.html">Códigos</a></li>
+                </ul>
+            </nav>
+            <button id="toggle-header" aria-label="Ocultar header">▲</button>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h2>Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="Juan.jpg" alt="Foto de Juan Morales" class="avatar">
+                </div>
+                <div class="about-text">
+                    <p>Soy Juan Morales, programador experto en Python y entusiasta del desarrollo web. Este es mi portafolio donde comparto mis proyectos y conocimientos.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <h2>Proyectos</h2>
+            <div id="projects-list" class="collage-grid">
+                <!-- Los proyectos se cargarán dinámicamente aquí -->
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h2>Conocimientos</h2>
+            <ul class="skills-list">
+                <li>Python (Avanzado)</li>
+                <li>HTML, CSS, JavaScript (Principiante)</li>
+                <li>Git & GitHub</li>
+                <li>Automatización y scripting</li>
+            </ul>
+            <div class="skills-graph">
+                <div class="skill-bar">
+                    <span>Python</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 95%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <span>HTML/CSS</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 40%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <span>JavaScript</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 35%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <span>Git & GitHub</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 60%"></div></div>
+                </div>
+                <div class="skill-bar">
+                    <span>Automatización</span>
+                    <div class="bar-bg"><div class="bar-fill" style="width: 80%"></div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Contacto: juan.morales@email.com | LinkedIn: linkedin.com/in/juan-morales | GitHub: github.com/juan-morales</p>
+            <p>&copy; 2024 Juan Morales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 

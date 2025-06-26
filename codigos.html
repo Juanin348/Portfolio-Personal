@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Códigos | Portafolio de Juan Morales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header" class="header">
+        <div class="header-content">
+            <div class="logo" aria-label="Logo Juan Morales">JM</div>
+            <h1>Juan Morales</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">Sobre mí</a></li>
+                    <li><a href="index.html#projects">Proyectos</a></li>
+                    <li><a href="index.html#skills">Conocimientos</a></li>
+                    <li><a href="codigos.html" class="active">Códigos</a></li>
+                </ul>
+            </nav>
+            <button id="toggle-header" aria-label="Ocultar header">▲</button>
+        </div>
+    </header>
+    <main class="codes-main">
+        <div class="codes-title">Ejemplos de Código</div>
+        <div class="codes-grid">
+            <div class="code-card">
+                <div class="code-title">Python: Contador de Palabras</div>
+                <div class="code-desc">Un script sencillo en Python que cuenta las palabras en un texto dado.</div>
+                <pre class="code-block"><code># Contador de palabras en Python
+texto = "Hola, este es un ejemplo de texto."
+palabras = texto.split()
+print(f"Número de palabras: {len(palabras)}")
+</code></pre>
+            </div>
+            <!-- Puedes agregar más tarjetas de código aquí -->
+            <div class="code-card">
+                <div class="code-title">Ruleta</div>
+                <div class="code-desc">Un codigo que da un numero entre el 1 y 10.</div>
+                <pre class="code-block"><code># Ruleta
+import random
+numero = random.randint(1, 10)
+print(f"El número aleatorio es: {numero}")
+</code></pre>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Contacto: juan.morales@email.com | LinkedIn: linkedin.com/in/juan-morales | GitHub: github.com/juan-morales</p>
+            <p>&copy; 2024 Juan Morales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
